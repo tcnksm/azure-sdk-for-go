@@ -122,6 +122,7 @@ type BlobProperties struct {
 	CopyCompletionTime    string   `xml:"CopyCompletionTime"`
 	CopyStatusDescription string   `xml:"CopyStatusDescription"`
 	LeaseStatus           string   `xml:"LeaseStatus"`
+	ServerEncrypted       bool     `xml:"ServerEncrypted"`
 }
 
 // BlobHeaders contains various properties of a blob and is an entry
